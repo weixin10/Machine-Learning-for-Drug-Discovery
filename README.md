@@ -12,7 +12,7 @@ This project is inspired by a bioinformatics project done by Chanin Nantasenamat
 1. compound_data.csv - dataset obtained from ChEMBL query filtered for IC50 values and removed instances where standard values were missing and standard units is not nM.
 2. preprocessed_compound_data.csv - dataset with only canonical smiles, molecule ChEMBL ids and the standard values. 
 3. compounds_descriptors.csv - dataset with the columns in preprocessed.csv with additional four columns : Molecular Weight, LogP, Number of hydrogen bond donors and number of hydrogen bond acceptors.
-4. molecules.smi - smi file containing the canonical smiles and molecule ChEMBL id needed for computing the PubChem fingerprints.
+4. molecule.smi - smi file containing the canonical smiles and molecule ChEMBL id needed for computing the PubChem fingerprints.
 5. descriptors_output.csv -  file containing the PubChem fingerprints for each molecule.
 6. train_and_test.csv -  file containing the PubChem fingerprints and the pIC50 values.
 7. grid_ran_for.csv - Results of running GridSearchCV to find optimal parameters for Random Forest Model in DataFrame format.
